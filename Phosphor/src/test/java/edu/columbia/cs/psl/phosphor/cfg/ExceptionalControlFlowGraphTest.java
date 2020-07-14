@@ -1,4 +1,4 @@
-package edu.columbia.cs.psl.phosphor.control.graph;
+package edu.columbia.cs.psl.phosphor.cfg;
 
 import edu.columbia.cs.psl.phosphor.struct.harmony.util.*;
 import org.junit.Test;
@@ -6,8 +6,8 @@ import org.objectweb.asm.Opcodes;
 import org.objectweb.asm.tree.AbstractInsnNode;
 import org.objectweb.asm.tree.MethodNode;
 
-import static edu.columbia.cs.psl.phosphor.control.graph.ControlFlowGraphTestUtil.*;
-import static edu.columbia.cs.psl.phosphor.control.graph.ExceptionalControlFlowTestMethods.*;
+import static edu.columbia.cs.psl.phosphor.cfg.ControlFlowGraphTestUtil.*;
+import static edu.columbia.cs.psl.phosphor.cfg.ExceptionalControlFlowTestMethods.*;
 import static junit.framework.TestCase.assertEquals;
 
 public class ExceptionalControlFlowGraphTest {

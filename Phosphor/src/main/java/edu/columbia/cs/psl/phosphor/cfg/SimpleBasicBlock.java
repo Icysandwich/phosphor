@@ -1,4 +1,4 @@
-package edu.columbia.cs.psl.phosphor.control.graph;
+package edu.columbia.cs.psl.phosphor.cfg;
 
 import edu.columbia.cs.psl.phosphor.struct.harmony.util.Map;
 import edu.columbia.cs.psl.phosphor.struct.harmony.util.StringBuilder;

@@ -1,6 +1,6 @@
-package edu.columbia.cs.psl.phosphor.control.graph;
+package edu.columbia.cs.psl.phosphor.cfg;
 
-import edu.columbia.cs.psl.phosphor.control.graph.FlowGraph.NaturalLoop;
+import edu.columbia.cs.psl.phosphor.cfg.FlowGraph.NaturalLoop;
 import edu.columbia.cs.psl.phosphor.struct.harmony.util.*;
 import org.junit.ClassRule;
 import org.junit.Test;

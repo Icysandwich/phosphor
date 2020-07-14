@@ -1,4 +1,4 @@
-package edu.columbia.cs.psl.phosphor.control.graph;
+package edu.columbia.cs.psl.phosphor.cfg;
 
 import edu.columbia.cs.psl.phosphor.struct.IntSinglyLinkedList;
 import edu.columbia.cs.psl.phosphor.struct.SinglyLinkedList;

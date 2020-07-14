@@ -1,4 +1,4 @@
-package edu.columbia.cs.psl.phosphor.control.graph;
+package edu.columbia.cs.psl.phosphor.cfg;
 
 import org.objectweb.asm.Label;
 import org.objectweb.asm.tree.MethodNode;
@@ -7,7 +7,7 @@ import static org.objectweb.asm.Opcodes.*;
 
 public class ExceptionalControlFlowTestMethods {
 
-    public static final String OWNER = "edu/columbia/cs/psl/phosphor/control/graph/ExceptionalControlFlowTestMethods";
+    public static final String OWNER = ExceptionalControlFlowTestMethods.class.getName().replace(".", "/");
 
     public static MethodNode callsExceptionThrowingMethod() {
         //public void callsExceptionThrowingMethod() {

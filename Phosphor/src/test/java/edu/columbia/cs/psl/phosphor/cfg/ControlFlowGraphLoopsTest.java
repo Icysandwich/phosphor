@@ -1,9 +1,9 @@
-package edu.columbia.cs.psl.phosphor.control.graph;
+package edu.columbia.cs.psl.phosphor.cfg;
 
 import edu.columbia.cs.psl.phosphor.struct.harmony.util.*;
 import org.junit.Test;
 
-import static edu.columbia.cs.psl.phosphor.control.graph.ControlFlowGraphTestUtil.calculateLoops;
+import static edu.columbia.cs.psl.phosphor.cfg.ControlFlowGraphTestUtil.calculateLoops;
 import static junit.framework.TestCase.assertEquals;
 import static junit.framework.TestCase.assertTrue;
 

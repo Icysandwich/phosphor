@@ -1,4 +1,4 @@
-package edu.columbia.cs.psl.phosphor.control.graph;
+package edu.columbia.cs.psl.phosphor.cfg;
 
 import edu.columbia.cs.psl.phosphor.struct.harmony.util.Comparator;
 import edu.columbia.cs.psl.phosphor.struct.harmony.util.Map;
@@ -13,7 +13,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.PrintWriter;
 
-import static edu.columbia.cs.psl.phosphor.control.graph.BasicBlock.getNumericLabelNames;
+import static edu.columbia.cs.psl.phosphor.cfg.BasicBlock.getNumericLabelNames;
 
 public class BaseControlFlowGraphCreator extends ControlFlowGraphCreator<BasicBlock> {
 

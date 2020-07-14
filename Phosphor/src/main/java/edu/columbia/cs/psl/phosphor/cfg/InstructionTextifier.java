@@ -1,4 +1,4 @@
-package edu.columbia.cs.psl.phosphor.control.graph;
+package edu.columbia.cs.psl.phosphor.cfg;
 
 import edu.columbia.cs.psl.phosphor.instrumenter.PhosphorTextifier;
 import edu.columbia.cs.psl.phosphor.struct.harmony.util.Map;
